@@ -34,12 +34,14 @@ public class Rabbit implements Runnable {
                     System.out.println("The Rabbit is leading and hence is going to sleep!");
                     try {
                         Thread.sleep(9000L);
+                        System.out.println("Rabbit see tortoise here and there and start running with a full speed :( ");
                     } catch (InterruptedException e) {
                         System.err.println("The Rabbit's sleep got interrupted!");
                     }
                     break;
                 case 4:
                     System.out.println("The Rabbit has reached the finish line!");
+                    System.out.println("But it's too late , Rabbit lose the race");
                     break;
             }
             try {
